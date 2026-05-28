@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Greenden</title>
+
+</head>
+<body>
+    <!--------------------------- navbar---------------------- -->
+    <nav class="bg-green-100 p-3 flex justify-between items-center shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+            class="size-1 w-5 h-5 md:hidden">
+            <path fill-rule="evenodd"
+                d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Zm0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
+
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex ">
+            <li>
+                <a href="index.html" class="hover:text-black">Home</a>
+            </li>
+            <li>
+                <a href="product.html" class="hover:text-black">Products</a>
+            </li>
+            <li>
+                <a href="contact.html" class="hover:text-black">Contact</a>
+            </li>
+        </ul>
+        
+    </nav>
+
+    <!-- our product -->
+     <section class="text-center">
+        <div class="flex flex-col items-center">
+            <h1 class="font-bold text-3xl m-5">Our Products</h1>
+            <input type="text" class="border border-black p-2 w-4/5" placeholder="Search the product...">
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-4 gap-5">
+            <div>
+                <img src="./Images/flower_pots1.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-3">
+                <p>Rose plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/flower_pots4.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-3">
+                <p>Bell flower</p>
+                <p>$25</p>
+            </div>
+            <div>
+                <img src="./Images/flower_pots3.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-3">
+                <p>Marigold</p>
+                <p>$30</p>
+            </div>
+            <div>
+                <img src="./Images/flower_pots2.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-3">
+                <p>Lily plant</p>
+                <p>$10</p>
+            </div>
+            <div>
+                <img src="./Images/flower_pots4.jpg" alt="" class="inline" class="inline hover:shadow-xl transform hover:-translate-y-3">
+                <p>Bell Flower  </p>
+                <p>$15</p>
+            </div>
+            <div>
+                <img src="./Images/flower_pots3.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-3">
+                <p>Marigold</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/flower_pots2.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-3">
+                <p>Lily plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/flower_pots1.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-3">
+                <p>Rose plant</p>
+                <p>$20</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- -----Footer----- -->
+      <section class="bg-green-100 p-10 flex flex-col gap-5 mt-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, perferendis.</p>
+        <p>@ 2026 Greenden.com</p>
+      </section>
+</body>
+</html>
